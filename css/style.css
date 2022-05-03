@@ -48,7 +48,7 @@ nav .nav-links .side-logo{
   content: "";
   left: 0;
   bottom: 0;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
 }
 .active:hover a{
   color: var(--orange-color);
