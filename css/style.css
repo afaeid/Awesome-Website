@@ -23,10 +23,15 @@
   height: auto;
 }
 nav{
+  width: 100%;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 10px;
+  position: fixed;
+  top: 0;
+  transition: background 0.4s ease;
 }
 nav .logo{
  font-family: var(--title-font);
@@ -47,8 +52,8 @@ nav .nav-links .side-logo{
   position: absolute;
   content: "";
   left: 0;
-  bottom: 0;
-  border-radius: 5px 5px 0 0;
+  bottom: -4px;
+  border-radius: 25px 25px 0 0;
 }
 .active:hover a{
   color: var(--orange-color);
@@ -74,4 +79,87 @@ nav .nav-links li a:hover {
 }
 .mobile-sideber{
   display: none;
+}
+.content{
+  width: 100%;
+  min-height: 60vh;
+  /* background: red; */
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 0 50px;
+  margin-top: 70px;
+}
+.content .right-col{
+  order: 2;
+}
+.content .left-col .special-btn{
+  padding: 12px 15px;
+  border-radius: 25px;
+  background: var(--orange-color);
+  outline: none;
+  border:none;
+  color: #fff;
+  margin: 1rem 0;
+  font-size: 18px;
+}
+.content .left-col h1{
+  margin-bottom: 1rem;
+}
+.content .right-col img{
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.mobile-con-img{
+  display: none;
+}
+footer{
+  width: 100%;
+  min-height: 100px;
+  background: #CFCFCF;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+footer .footer-logo{
+  font-family: var(--title-font);
+  font-size: 30px;
+  color: var(--orange-color);
+}
+footer .footer-links{
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .footer-links .col{
+  margin: 0 10px;
+}
+footer .footer-links p{
+  font-weight: 500;
+  margin: 10px 0;
+  font-size: 20px;
+  color: var(--orange-color);
+}
+footer .footer-links li{
+  list-style: none;
+  font-weight: 400;
+  margin: 8px 0;
+}
+footer .footer-links li a{
+  /* color: var(--orange-color); */
+  color: #4B4E58;
+  text-decoration: none;
+}
+/* ===== Navbar Animation Style ===== */
+.animNav{
+  background:#3C3E55;
+}
+.animNav .nav-links li a{
+  color: #fff;
+}
+.animNav .logo{
+  color: #fff;
+}
+.animNav .bi-list{
+  fill: #fff;
 }
