@@ -1,0 +1,63 @@
+@media only screen and (min-width:320px) and (max-width: 480px){
+.menu-icon{
+  display: inline-block
+}
+nav .nav-links {
+  display: none;
+}
+.mobile-sideber{ 
+  position: fixed;
+  width: 80%;
+  height: 100vh;
+  border-right: 1px solid #D9D9D9;
+  bottom: 0;
+  top: 0;
+  background: #fff;
+  left: -80%;
+  transition: left 0.5s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.mobile-sideber li{
+  list-style: none;
+}
+.mobile-sideber .mobile-sidebar-logo{
+  font-family:var(--title-font) ;
+  font-size: 35px;
+  color:var(--orange-color);
+ /* position: absolute;
+  top: 20px;*/
+}
+.mobile-sideber .mobile-sidebar-links li{
+  margin: 10px 0;
+}
+.mobile-sideber .mobile-sidebar-links li a{
+  color: var(--orange-color);
+  text-decoration: none;
+  font-weight: 700;
+  display: inline;
+}
+.active{
+ background: var(--orange-color);
+ text-align: center;
+ padding: 10px 10px ;
+ border-radius: 5px ;
+}
+.social-media-link{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.social-media-link button{
+  margin: 0 10px;
+}
+.show{
+  left: 0;
+}
+
+/* ===== TOGGLE CSS Styles ===== */
+
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+ 
+:root{
+  --orange-color:#FF4500;
+  --mid-black-color:#000000;
+  
+  
+  --title-font:'Fascinate', cursive;
+}
+.icon{
+  border: none;
+  outline: none;
+  background: none;
+}
+.container{
+  width: 100%;
+  height: auto;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+nav .logo{
+ font-family: var(--title-font);
+ font-size: 35px;
+ color:var(--orange-color)
+}
+nav .nav-links{
+  display: inline-block;
+  z-index: 1000;
+}
+nav .nav-links .side-logo{
+  display: none;
+}
+ .active::before{
+  width: 100%;
+  height: 2px;
+  background:var(--orange-color);
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+.active:hover a{
+  color: var(--orange-color);
+}
+nav .nav-links li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  font-weight: 700;
+  position: relative;
+  padding: 0 8px;
+}
+nav .nav-links li a{
+  text-decoration: none;
+  color: var(--orange-color);
+  transition:400ms ease;
+}
+nav .nav-links li a:hover {
+  color: var(--mid-black-color);
+}
+.menu-icon{
+  display: none;
+}
+.mobile-sideber{
+  display: none;
+}
