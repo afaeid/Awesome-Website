@@ -157,7 +157,8 @@ footer .footer-links li a{
 }
 /* ===== Navbar Animation Style ===== */
 .animNav{
-  background:#3C3E55;
+  /* background:#3C3E55; */
+  background: #26293A;
 }
 .animNav .nav-links li a{
   color: #fff;
@@ -165,6 +166,6 @@ footer .footer-links li a{
 .animNav .logo{
   color: #fff;
 }
-.animNav .bi-list{
+.animNav .bi{
   fill: #fff;
 }
