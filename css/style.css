@@ -127,6 +127,10 @@ footer{
   flex-direction: column;
   padding: 10px;
 }
+footer ::selection{
+  color: #40FF00;
+  background: #39415B;
+}
 footer .footer-logo{
   font-family: var(--title-font);
   font-size: 30px;
