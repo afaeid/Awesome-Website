@@ -105,6 +105,7 @@ nav .nav-links li a:hover {
 }
 .content .left-col h1{
   margin-bottom: 1rem;
+  font-weight: 800;
 }
 .content .right-col img{
   width: 100%;
