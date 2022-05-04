@@ -1,6 +1,6 @@
 @media only screen and (min-width:320px) and (max-width: 480px){
 .menu-icon{
-  display: inline-block
+  display: inline-block;
 }
 nav{
   width: 100%;
@@ -30,6 +30,7 @@ nav .nav-links {
   font-family:var(--title-font) ;
   font-size: 35px;
   color:var(--orange-color);
+  cursor: pointer;
 }
 .mobile-sideber .mobile-sidebar-links li{
   margin: 10px 0;
@@ -39,6 +40,7 @@ nav .nav-links {
   text-decoration: none;
   font-weight: 700;
   display: inline;
+  cursor: pointer;
 }
 .active{
  background: var(--orange-color);
@@ -74,6 +76,7 @@ nav .nav-links {
   display: inline-block;
   width: 100%;
   height: auto;
+  cursor: alias;
 }
 .content .mobile-con-img img{
   width: 100%;
