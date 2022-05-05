@@ -121,7 +121,7 @@ nav .nav-links li a:hover {
 }
 footer{
   width: 100%;
-  min-height: 100px;
+  min-height: auto;
   background: #CFCFCF;
   display: flex;
   flex-direction: column;
@@ -158,6 +158,11 @@ footer .footer-links li a{
   /* color: var(--orange-color); */
   color: #4B4E58;
   text-decoration: none;
+  cursor: pointer;
+}
+footer .footer-links li a:hover{
+  color: #061BFF;
+  
 }
 /* ===== Navbar Animation Style ===== */
 .animNav{
