@@ -21,6 +21,7 @@
 .cus-point{
   cursor: pointer;
 }
+
 .container{
   width: 100%;
   height: auto;
@@ -106,6 +107,7 @@ nav .nav-links li a:hover {
   color: #fff;
   margin: 1rem 0;
   font-size: 18px;
+  transition: background 400ms ease;
 }
 .content .left-col h1{
   margin-bottom: 1rem;
@@ -164,12 +166,10 @@ footer .footer-links li a:hover{
   color: #061BFF;
   
 }
-
-
-
-
-
-
+.content .left-col .hover-effect:hover{
+  background: #24284F;
+  color: #fff;
+}
 
 
 /* ===== Navbar Animation Style ===== */
